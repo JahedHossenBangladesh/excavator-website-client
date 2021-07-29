@@ -1,6 +1,7 @@
 import './App.css';
 import Navbar from './Components/Navbar/Navbar';
 import Carousel from './Components/Carousel/Carousel'
+import HotProduct from './Components/HotProduct/HotProduct';
 
 function App() {
   return (
@@ -8,6 +9,7 @@ function App() {
    <Navbar/>
    {/* <Carousel/> */}
   <Carousel/>
+  <HotProduct/>
     </>
   );
 }
